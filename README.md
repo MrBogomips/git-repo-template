@@ -9,5 +9,5 @@
 
 ```
 cd path/to/your/git/checkout \
-&& install -vbm 755 <(curl -s https://gist.githubusercontent.com/dberstein/dcc50e171163c3f6e0f23b2b5de5dd49/raw/5e5372ff22a872321ad1f5469a4d579c15ce498a/commit-msg) "$(git rev-parse --git-dir)/hooks/commit-msg"
+&& install -vbm 755 <(curl -s https://git.nexusat.it/giovanni.costagliola/git-repo-template/raw/main/commit-msg) "$(git rev-parse --git-dir)/hooks/commit-msg"
 ```
