@@ -7,7 +7,7 @@
 ### USAGE and SYNTAX
 
 The commit message MUST honour one of the following patterns:
-* a conventional commit message subject (to be parsed into changelogs, see https://www.conventionalcommits.org/en/v1.0.0 ):
+* a *conventional commit message* subject (to be parsed into changelogs, see (https://www.conventionalcommits.org/en/v1.0.0) ):
    - a change type, either of "build", "chore", "ci", "docs", "feat", "fix", "perf", "refactor", "revert", "style", "test" or "Publish"
    - optionally, in parenthesis, subsystem(s) affected by the change (comma delimited list)
    - a colon, space (": ") and a brief subject (60 characters maximum) not ending with a period
@@ -19,22 +19,22 @@ The commit message MUST honour one of the following patterns:
 
 ### EXAMPLES of valid commit messages
 
-* feat: new button (NEXUS-1)
-* feat(UI/UX): new button (NEXUS-1)
-* fix(ComponentA, ComponentB): new button (NEXUS-1,NEXUS-2)
-* docs: README.me improved (NEXUS-1)
-* refactor: Main.cs (NEXUS-1)
-* Publish: Main deploy (NEXUS-1)
-* WIP: still working
-* fixup! my previous commit (See note above!!!)
-* squash! another previous commit (See note above!!!)
+* `feat: new button (NEXUS-1)`
+* `feat(UI/UX): new button (NEXUS-1)`
+* `fix(ComponentA, ComponentB): new button (NEXUS-1,NEXUS-2)`
+* `docs: README.me improved (NEXUS-1)`
+* `refactor: Main.cs (NEXUS-1)`
+* `Publish: Main deploy (NEXUS-1)`
+* `WIP: still working`
+* `fixup! my previous commit (See note above!!!)`
+* `squash! another previous commit (See note above!!!)`
 
 ### Install procedure
 
 * Copy the script `commit-msg` under the path ./git/hooks
 * Grant the execution privilege to the script (chmod a+x ./git/hooks/commit-msg)
 
-*Alternatively* you can issue the following command from unix shell (or Windows/Cygwin):
+*Alternatively* you can issue the following command from a linux/unix shell (or Windows/Cygwin):
 
 ### Bash install one-liner 
 
