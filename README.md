@@ -1,5 +1,10 @@
 # Nexus Git Standard Hooks
 
+A set of standard hooks designed to improve DevOps Experience by:
+* Enabling JIRA Integration
+* Enabling CI/CD semantic messages
+* Promoting best-bractice
+
 ## Commit Message Hook
 
 *This hook validate the format of the commit message.*
