@@ -10,7 +10,7 @@
 #[ "$current_branch" != "$develop_branch" ] && exit 0
 
 # regex to validate in commit msg
-commit_regex='^((build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|Publish)(\([a-zA-Z0-9 /_,.-]+?\))?: .{1,59}\w (\(([A-Z]+-[0-9]+,)?([A-Z]+-[0-9]+)+\)|\[skip ci\]|\[ci\])|Merge branch .+|(fixup|squash)! .+|WIP: .+)$'
+commit_regex='^((build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|Publish)(\([a-zA-Z0-9 /_,.-]+?\))?: .{1,59}\w (\((([A-Z]+-)*[0-9]+,)*(([A-Z]+-)*[0-9]+)+\)|\[skip ci\]|\[ci\])|Merge branch .+|(fixup|squash)! .+|WIP: .+)$'
 
 error_msg='
 .git/hooks/commit-msg: Aborting commit, try again with a valid message.
