@@ -25,10 +25,10 @@ The commit message MUST honour one of the following patterns:
 ### EXAMPLES of valid commit messages
 
 * `feat: new button (NEXUS-1)`
-* `feat(UI/UX): new button (NEXUS-1)`
+* `feat(UI/UX): new button (1,2,3)`
 * `fix(ComponentA, ComponentB): new button (NEXUS-1,NEXUS-2)`
 * `docs: README.me improved (NEXUS-1)`
-* `refactor: Main.cs (NEXUS-1)`
+* `refactor: Main.cs (1)`
 * `Publish: Main deploy (NEXUS-1)`
 * `WIP: still working`
 * `fixup! my previous commit (See note above!!!)`
