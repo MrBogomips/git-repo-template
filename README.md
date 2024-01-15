@@ -46,7 +46,7 @@ The commit message MUST honour one of the following patterns:
 ```
 cd path/to/your/git-repo
 
-install -vbm 755 <(curl -s https://git.nexusat.it/giovanni.costagliola/git-repo-template/raw/main/commit-msg) "$(git rev-parse --git-dir)/hooks/commit-msg"
+install -vbm 755 <(curl -s https://raw.githubusercontent.com/MrBogomips/git-repo-template/main/commit-msg) "$(git rev-parse --git-dir)/hooks/commit-msg"
 ```
 
 ### Zsh install one-liner 
@@ -54,5 +54,5 @@ install -vbm 755 <(curl -s https://git.nexusat.it/giovanni.costagliola/git-repo-
 ```
 cd path/to/your/git-repo
 
-install -vbm 755 =(curl -s https://git.nexusat.it/giovanni.costagliola/git-repo-template/raw/main/commit-msg) "$(git rev-parse --git-dir)/hooks/commit-msg"
+install -vbm 755 =(curl -s https://raw.githubusercontent.com/MrBogomips/git-repo-template/main/commit-msg) "$(git rev-parse --git-dir)/hooks/commit-msg"
 ```
